@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  color: white;
+}
+.headline {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  font-weight: bold;
+}
+h1{
+  letter-spacing:2px;
+}
+.video {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+}
+video {
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 8px;
+}
+.buttons {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  padding: 10px 5px;
+  font-size: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.android-ver,
+.ios-ver {
+  margin: 2px;
+  padding: 20px 5px;
+}
+svg {
+  width: 30px;
+  height: 30px;
+  margin: auto 5px;
+}
+.apple:hover {
+  color: black;
+  background-color: black;
+}
+p {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+span {
+  font-size: 15px;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.853);
+  width: 100%;
+  min-height: 300px;
+}
+@media (max-width: 676px){
+  h1{
+    font-size: 20px;
+  }
+};
